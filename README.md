@@ -1,8 +1,8 @@
 # Rolex GMT-Master II Chrome Start Page
 
-[![rolex gif](https://github.com/gamell/rolex-gmt-ii/raw/master/media/rolex-gmt-ii.gif)](https://chrome.google.com/webstore/detail/hchnfnfjjknanhhconaappneoejmgngi/publish-accepted?hl=en-US&gl=US)
+[![rolex gif](https://github.com/gamell/rolex-gmt-ii/raw/master/media/rolex-gmt-ii.gif)](https://chrome.google.com/webstore/detail/hchnfnfjjknanhhconaappneoejmgngi/)
 
-[**Link to Chrome Extension**](https://chrome.google.com/webstore/detail/hchnfnfjjknanhhconaappneoejmgngi/publish-accepted?hl=en-US&gl=US)
+[**Link to Chrome Extension**](https://chrome.google.com/webstore/detail/hchnfnfjjknanhhconaappneoejmgngi/)
 
 Port to Chrome Extension of my [Rolex GMT-Master II weekend project](https://github.com/gamell/rolex-gmt-ii). You can go to [this repo](https://github.com/gamell/rolex-gmt-ii) or this [Codepen](https://codepen.io/gamell/pen/ozkPLQ) to see the source code.
 
