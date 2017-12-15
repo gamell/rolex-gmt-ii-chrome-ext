@@ -3,7 +3,7 @@
 
   "name": "Rolex GMT-Master II Start Page",
   "description": "Show a recreation of a Rolex GMT-Master II watch when a new tab is opened. This is not an official Rolex extension.",
-  "version": "1.3",
+  "version": "1.4",
   "author": "Joan Gamell",
   "chrome_url_overrides" : {
     "newtab": "rolex.html"
