@@ -1,0 +1,126 @@
+html, body {
+  user-select: none; }
+
+body.main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+  background: radial-gradient(circle at center, #777, black 60%); }
+
+#background, #gmt-hand-red, #gmt-hand, #hour-hand, #minute-hand, #second-hand, #cyclops {
+  background: url(9d20e3d87899e67716da9da0d031805c.png) no-repeat; }
+
+#background {
+  background-position: 0 0;
+  width: 425px;
+  height: 753px; }
+
+#dial {
+  position: relative;
+  top: 187px;
+  left: 60px;
+  width: 267px;
+  height: 267px; }
+  #dial #date {
+    position: absolute;
+    width: 45px;
+    font-family: serif;
+    right: 22px;
+    top: 1px;
+    height: 267px;
+    transform: scale(1.3, 1);
+    line-height: 267px;
+    font-size: 32px;
+    text-align: center;
+    z-index: 0; }
+  #dial #hour-hand {
+    width: 31px;
+    height: 93px;
+    position: absolute;
+    left: 117.5px;
+    top: 56.5px;
+    transform-origin: 16px 77px;
+    background-position: -426px -242px;
+    transition: 250ms linear all;
+    z-index: 1; }
+  #dial #gmt-hand {
+    width: 28px;
+    height: 120px;
+    position: absolute;
+    left: 119.5px;
+    top: 18.5px;
+    transform-origin: 14px 115px;
+    background-position: -426px 0;
+    transition: 250ms linear all;
+    z-index: 2; }
+  #dial #minute-hand {
+    width: 18px;
+    height: 126px;
+    position: absolute;
+    left: 124.5px;
+    top: 18.5px;
+    transform-origin: 9px 115px;
+    background-position: -426px -337px;
+    transition: 250ms linear all;
+    z-index: 3; }
+  #dial #second-hand {
+    width: 17px;
+    height: 176px;
+    position: absolute;
+    left: 124.5px;
+    top: 8.5px;
+    transform-origin: 9px 125px;
+    background-position: -426px -467px;
+    transition: 250ms linear all;
+    z-index: 4; }
+  #dial #cyclops {
+    position: absolute;
+    right: 10px;
+    top: 101px;
+    width: 73px;
+    height: 58px;
+    background-position: -426px -695px;
+    z-index: 5; }
+
+#config {
+  font-size: 18px;
+  position: absolute;
+  top: 0.5em;
+  right: 0.5em;
+  text-align: right;
+  transition: 250ms linear all; }
+  #config .left {
+    float: left; }
+  #config .right {
+    float: right; }
+  #config a {
+    opacity: 0.4;
+    color: white;
+    cursor: pointer;
+    font-size: 1.5em;
+    line-height: 1.5em;
+    text-decoration: none; }
+  #config .menu {
+    overflow: auto;
+    font-family: Helvetica, Sens-serif;
+    color: #ddd;
+    padding: 0.5em;
+    border: 1px solid #aaa;
+    text-align: justify; }
+  #config .button {
+    margin: 0 0.1em;
+    cursor: pointer;
+    display: inline-block;
+    width: 1.1em;
+    height: 1.1em;
+    line-height: 1em;
+    border: 1px solid #aaa;
+    border-radius: 50%;
+    color: #aaa;
+    text-align: center;
+    text-decoration: none;
+    background: #222;
+    font-size: 1em; }
+    #config .button:hover {
+      background: #444; }
